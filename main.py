@@ -45,7 +45,7 @@ def run_playbook(playbook_name, playbook_dir_path, inventory_path):
 
 def main():
     abs_path = pathlib.Path(__file__).parent.resolve()
-    choices = ['jellyfin', 'keycloak', 'kiwix', 'moodle', 'nextcloud', 'radiusdesk', 'splash-screen', 'wordpress']
+    choices = ['azuracast', 'jellyfin', 'keycloak', 'kiwix', 'moodle', 'nextcloud', 'radiusdesk', 'splash-screen', 'wordpress']
     # choices = ['dnsmasq', 'jellyfin', 'keycloak', 'nextcloud', 'splash-screen', 'radiusdesk', 'wordpress']
     traefik = 'traefik'
     ap_monitor = 'ap_monitor'
